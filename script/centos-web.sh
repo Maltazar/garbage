@@ -2,7 +2,7 @@
 
 
 yum install -y httpd httpd-devel httpd-tools
-
+chkconfig --add httpd
 chkconfig httpd on
 service httpd stop
 
