@@ -2,12 +2,12 @@
 
 
 yum install -y httpd httpd-devel httpd-tools
-chkconfig --add httpd
-chkconfig httpd on
+# chkconfig --add httpd
+systemctl enable httpd.service
 service httpd stop
 
 rm -rf /var/www/html
-lm -s /vagrant /var/www/html
+ln -s /vagrant /var/www/html
 
 service httpd start
 
