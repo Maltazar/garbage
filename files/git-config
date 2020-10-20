@@ -1,0 +1,5 @@
+[user]
+	name = Martin Silkjær
+	email = ms@hjem.lan
+[core]
+	editor = \"C:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
